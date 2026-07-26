@@ -1,84 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     background-color: rgba(0, 0, 0, 0.519);
-    
-     /* background-image: url("gitar.jpg"); */
-    
+
+    /* background-image: url("gitar.jpg"); */
+
 }
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5rem;
     margin-top: 0rem;
     text-decoration: none;
- 
+
     background-color: rgba(73, 72, 72, 0.722);
-    
+
 }
-header a:hover{
+header a:hover {
     color: brown;
 }
-header nav ul{
+header nav ul {
     display: flex;
     list-style: none;
     padding: 1rem;
-    
+
 }
-header i{
-   font-size: 20px;
-   padding-right: 4rem;
-  list-style: none;
+header i {
+    font-size: 20px;
+    padding-right: 4rem;
+    list-style: none;
     text-decoration: none;
-     color: rgb(255, 254, 254);
+    color: rgb(255, 254, 254);
     position: sticky;
     top: 0;
     z-index: 44;
 
 }
-header a{
+header a {
     list-style: none;
     text-decoration: none;
-     color: rgb(248, 248, 248);
+    color: rgb(248, 248, 248);
 }
-.image-hea{
+.image-hea {
     width: 55px;
     height: 50px;
     padding-left: 0.5rem;
 }
-.image-hea img{
+.image-hea img {
     width: 100%;
-    height: 100%;   
+    height: 100%;
     border-radius: 50%;
 }
-.para{
+.para {
     text-align: center;
     color: white;
 }
-.para h1{
+.para h1 {
     font-size: 50px;
     padding: 1.5rem;
 }
-.parag p{
+.parag p {
     color: rgb(144, 47, 47);
 }
-.para p{
-    
+.para p {
+
     width: 70%;
     margin-left: 15rem;
     padding-bottom: 2rem;
 }
-.pect{
+.pect {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 2.5rem;
     margin-left: 7rem;
 }
-.div1{
+.div1 {
     background-color: white;
     color: black;
     width: 70%;
@@ -86,34 +86,34 @@ header a{
     box-shadow: 0px 0px 10px black;
     border-radius: 1rem;
     margin-left: 2rem;
-    
+
 }
-button{
+button {
     margin-top: 1rem;
     width: 60%;
     padding: 0.5rem;
 
 }
-.div1 p{
+.div1 p {
     margin-left: 1rem;
     padding: 1rem 1rem 1rem 1rem;
     width: 90%;
-   
-    
+
+
 }
 
 .div1 a,
 .div2 a,
-.div3 a{
+.div3 a {
     text-decoration: none;
 }
 .div1 a h2,
 .div2 a h2,
-.div3 a h2{
+.div3 a h2 {
     color: black;
 }
 
-.div2{
+.div2 {
     background-color: rgb(252, 252, 252);
     width: 80%;
     height: 410px;
@@ -122,58 +122,129 @@ button{
     box-shadow: 0px 0px 10px black;
     margin-top: -25.5rem;
 }
-.div2 p{
+.div2 p {
     margin-left: 1rem;
     padding: 1rem 1rem 3.5rem 1rem;
     width: 90%;
 }
 .div1,
 .div2,
-.div3{
-  transition: transform 0.3s ease; 
+.div3 {
+    transition: transform 0.3s ease;
 }
 
 .div1:hover {
-  transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
-.div2:hover{
+.div2:hover {
     transform: scale(1.2);
 }
-.div3:hover{
+.div3:hover {
     transform: scale(1.2);
 }
-.div3{
+.div3 {
     background-color: rgb(255, 255, 255);
     width: 80%;
     height: 410px;
     color: black;
     border-radius: 1rem;
     box-shadow: 0px 0px 10px black;
-     margin-top: -25.5rem;
+    margin-top: -25.5rem;
 
 }
-.div3 p{
+.div3 p {
     margin-left: 1rem;
     padding: 1rem 1rem 3rem 1rem;
     width: 90%;
 }
-.image{
+.image {
     width: 100%;
     height: 45%;
     padding-bottom: 1rem;
 }
-.image img{
+.image img {
     width: 100%;
     height: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
 }
-button a{
+button a {
     text-decoration: none;
     color: black;
 }
-button a:hover{
+button a:hover {
     color: brown;
+}
+
+/* ==========================================================================
+   كود الميديا كويري الخاص بالجوال فقط (شاشات أقل من 768 بكسل)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* 1. ضبط الهيدر ليصبح عمودياً ومتناسقاً */
+    header {
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 10px;
+    }
+    header nav ul {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 !important;
+        gap: 8px;
+    }
+    header i {
+        padding-right: 0 !important;
+    }
+
+    /* 2. تصغير النصوص الكبيرة وتوسيطها في قسم الترحيب */
+    .para h1 {
+        font-size: 28px !important;
+        padding: 1rem !important;
+    }
+    .para p {
+        width: 90% !important;
+        margin-left: 0 !important;
+        margin: 0 auto !important;
+        font-size: 16px !important;
+    }
+
+    /* 3. فك شبكة الجريد (Grid) وتحويل الكروت لترتيب عمودي مرن تحت بعض */
+    .pect {
+        grid-template-columns: 1fr !important;
+        margin-left: 0 !important;
+        padding: 1.5rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 2.5rem; /* مسافة واضحة بين كل كارت والآخر */
+    }
+
+    /* 4. إلغاء المارجن السالب القاتل وضبط عرض الكروت ليكون متساوياً على الجوال */
+    .div1, .div2, .div3 {
+        width: 90% !important;
+        height: auto !important; /* السماح للكارد بتعديل طوله تلقائياً حسب النص */
+        margin-top: 0 !important; /* إلغاء الـ -25.5rem تماماً */
+        margin-left: 0 !important;
+        padding-bottom: 1.5rem !important;
+    }
+    
+    .div1 p, .div2 p, .div3 p {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding: 1rem !important;
+    }
+
+    /* 5. توسيط زر التفاعل داخل الكارد */
+    button {
+        width: 80% !important;
+        margin: 1rem auto 0 auto !important;
+        display: block;
+    }
+
+    /* 6. إلغاء تأثير الـ scale عند الهوفر لتفادي تدمير حدود الشاشة على الموبايل */
+    .div1:hover, .div2:hover, .div3:hover {
+        transform: none !important;
+    }
 }

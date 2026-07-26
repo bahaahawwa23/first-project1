@@ -93,3 +93,49 @@ button {
     text-decoration: none;
     color: rgb(10, 10, 10);
 }
+
+/* ==========================================================================
+   تعديلات الجوال فقط (شاشات أقل من 768 بكسل) - لا تؤثر على الكمبيوتر نهائياً
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* 1. جعل صندوق تسجيل الدخول يأخذ 90% من عرض شاشة الجوال بدلاً من 30% */
+    .div1 {
+        width: 90% !important;
+        margin: 2rem auto !important;
+        padding: 1.5rem !important;
+    }
+
+    /* 2. جعل حقول الإدخال والزر تأخذ العرض الكامل داخل الصندوق لتسهيل الضغط */
+    .email input, .pas input, button {
+        width: 100% !important;
+        margin: 1rem 0 !important;
+    }
+
+    /* 3. إلغاء المارجن الكبير لرابط (نسيت كلمة المرور) وتوسيطه أو محاذاته */
+    .forget a {
+        margin-left: 0 !important;
+        display: block;
+        text-align: right;
+        margin-top: 0.5rem;
+    }
+
+    /* 4. ضبط الأيقونات لتتوسط الشاشة بدون المارجن القديم */
+    .div2 {
+        flex-direction: column !important;
+        gap: 10px;
+    }
+    .ico {
+        margin-left: 0 !important;
+        padding: 0.5rem 0;
+    }
+
+    /* 5. ضبط منطقة (إنشاء حساب جديد) لكي لا تتداخل النصوص */
+    .sing {
+        grid-template-columns: 1fr !important; /* تحويلها لسطور تحت بعض */
+        text-align: center;
+        gap: 5px;
+    }
+    .sing a {
+        margin-left: 0 !important; /* إلغاء المارجن السالب الضار بالجوال */
+    }
+}

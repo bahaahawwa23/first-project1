@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     background-color: rgba(0, 0, 0, 0.519);
     
 }
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,16 +21,16 @@ header{
     z-index: 44;
   color: white;
 }
-header a:hover{
+header a:hover {
     color: brown;
 }
-header nav ul{
+header nav ul {
     display: flex;
     list-style: none;
     padding: 1rem;
     
 }
-header i{
+header i {
    font-size: 20px;
    padding-right: 4rem;
   list-style: none;
@@ -40,36 +40,36 @@ position: sticky;
     top: 0;
     z-index: 44;
 }
-header a{
+header a {
     list-style: none;
     text-decoration: none;
     color: white;
 }
-.samar{
+.samar {
     width: 20%;
 }
-.image-hea{
+.image-hea {
     width: 55px;
     height: 50px;
     padding-left: 0.5rem;
 }
-.image-hea img{
+.image-hea img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.div0 h1{
+.div0 h1 {
     font-size: 40px;
     text-align: center;
     
 }
-.div0 p{
+.div0 p {
     width: 81%;
     font-size: 20px;
     margin: 1rem auto;
 }
 
-.image{
+.image {
     width: 400px;
     height: 400px;
     display: flex;
@@ -79,7 +79,7 @@ header a{
     padding-bottom: 1rem;
     position: relative;
 }
-button{
+button {
  background-color: rgba(73, 72, 72, 0.722);
     color: white;
     width: 10%;
@@ -88,50 +88,50 @@ button{
     box-shadow: 0px 0px 10px black;
     margin-left: 15rem;
 }
-button a{
+button a {
     text-decoration: none;
     color: white;
 }
-.image img{
+.image img {
     width: 100%;
     height: 100%;
     margin-left: 2rem;
     border-radius: 1rem;
     box-shadow: 0px 0px 10px black;
 }
-.div1{
+.div1 {
     padding-top: 1rem;
 background-color: rgb(255, 252, 252);
 padding-bottom: 1rem;
 
 color: rgb(9, 9, 9);
 }
-.div1 h1{
+.div1 h1 {
      font-size: 40px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.div1 p{
+.div1 p {
      width: 79%;
     font-size: 20px;
     margin: 1rem auto;
 }
-.div1 li{
+.div1 li {
     padding-left:1rem ;
     color: rgb(139, 49, 49);
 }
-.div1 table{
+.div1 table {
     margin-left: 10rem;
     margin-bottom: 2rem;
 }
-.div1 table img{
+.div1 table img {
     width: 200ppx;
     height: 200px;
 }
-.div2{
+.div2 {
     height: 750px;
 }
-.div2 h1{
+.div2 h1 {
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -139,19 +139,19 @@ color: rgb(9, 9, 9);
     padding-bottom: 1rem;
     margin-left:40rem;
 }
-.div2 p{
+.div2 p {
     width: 60%;
     font-size: 25px;
     margin-left: 20rem;
     padding-bottom: 3rem;
 
 }
-.image2{
+.image2 {
     width: 200px;
     height:200px;
     
 }
-.image2 img{
+.image2 img {
     width: 100%;
     height: 100%;
      border-radius: 50%;
@@ -161,11 +161,11 @@ color: rgb(9, 9, 9);
     
    margin-bottom: 17rem;
 }
-.image3{
+.image3 {
     width: 200px;
     height:200px;
 }
-.image3 img{
+.image3 img {
     width: 100%;
     height: 100%;
      border-radius: 50%;
@@ -175,11 +175,11 @@ color: rgb(9, 9, 9);
 
    margin-bottom: 29rem;
 }
-.image4{
+.image4 {
     width: 200px;
     height: 200px;
 }
-.image4 img{
+.image4 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -190,11 +190,11 @@ color: rgb(9, 9, 9);
     margin-bottom: 30rem;
 }
 
-.image6{
+.image6 {
     width: 200px;
     height: 200px;
 }
-.image6 img{
+.image6 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -204,11 +204,11 @@ color: rgb(9, 9, 9);
     box-shadow: 0px 0px 10px black;
 
 }
-.image5{
+.image5 {
     width: 200px;
     height: 200px;
 }
-.image5 img{
+.image5 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -218,12 +218,12 @@ color: rgb(9, 9, 9);
 
     margin-bottom: 40rem;
 }
-.image7{
+.image7 {
     width: 200px;
     height: 200px;
     
 }
-.image7 img{
+.image7 img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -243,7 +243,7 @@ color: rgb(9, 9, 9);
     margin: 1rem auto;
     top: 2rem;
 }
-.box-child p{
+.box-child p {
     width: 100%;
     margin-left: 0.1rem;
     padding: 0.5rem;
@@ -262,48 +262,48 @@ color: rgb(9, 9, 9);
     margin: 1rem auto;
     text-align: center;
 }
-.div3{
+.div3 {
     background-color: #ffffff;
     padding-top: 1rem;
     color: rgb(19, 18, 18);
     height: 500px;
 }
-.div3 h1{
+.div3 h1 {
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     margin-left:40rem;
     padding: 1rem;
 }
-.div3 p{
+.div3 p {
     width: 70%;
     font-size: 25px;
     margin-left: 15rem;
     padding-bottom: 3rem;
 
 }
-.por{
+.por {
     display: flex;
 
 }
-.image-big{
+.image-big {
     width: 400px;
     height: 200px;
     padding: 0.5rem;
     margin-bottom: 5rem;
 }
-.image-big img{
+.image-big img {
     width: 100%;
     height: 100%;
     box-shadow: 0px 0px 10px black;
     /* margin-top: -5rem; */
 }
-.por p{
+.por p {
     width: 70%;
     margin-left: -10rem;
     margin-top: 2rem;
 }
-.image-big2{
+.image-big2 {
     width: 400px;
     height: 200px;
     padding: 0.5rem;
@@ -311,7 +311,7 @@ color: rgb(9, 9, 9);
     margin-top: -18rem;
 
 }
-.image-big2 img{
+.image-big2 img {
     width: 100%;
     
     height: 100%;
@@ -379,3 +379,115 @@ color: rgb(9, 9, 9);
     min-width: 240px;
     text-align: center;
 }
+
+/* ==========================================================================
+   كود الميديا كويري الإنقاذي المخصص للشاشات الصغيرة (الجوال) فقط
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* 1. ضبط الهيدر ليترتب عمودياً وتصفير الحشوة الزائدة */
+    header {
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 10px;
+    }
+    header nav ul {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 !important;
+        gap: 8px;
+    }
+    header i {
+        padding-right: 0 !important;
+    }
+
+    /* 2. تصغير الخطوط العريضة لجميع العناوين لتناسب الشاشات الصغيرة */
+    .div0 h1, .div1 h1, .div2 h1, .div3 h1 {
+        font-size: 26px !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    /* 3. تصفير هوامش وحجم نصوص الفقرات لتتوسط الشاشة تلقائياً */
+    .div0 p, .div1 p, .div2 p, .div3 p, .por p {
+        width: 90% !important;
+        margin: 1rem auto !important;
+        font-size: 16px !important;
+        text-align: center !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* 4. ضبط قسم الصور الترحيبية والزر الأساسي */
+    .image {
+        width: 90% !important;
+        height: auto !important;
+        margin: 1.5rem auto !important;
+        flex-direction: column !important;
+    }
+    .image img {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    button {
+        width: 50% !important;
+        margin: 1rem auto !important;
+        display: block !important;
+    }
+
+    /* 5. تصفير الجدول وجعله مرناً لكي لا يخرج عن الشاشة */
+    .div1 table {
+        margin-left: 0 !important;
+        width: 100% !important;
+        display: block;
+        overflow-x: auto; /* إضافة شريط تمرير للجدول إذا كان عريضاً */
+    }
+
+    /* 6. تحرير الصور الدائرية (image2 إلى image7) من المارجن السالب والـ 80rem */
+    .div2 {
+        height: auto !important; /* إلغاء الارتفاع الثابت الكارثي للجوال */
+        padding-bottom: 3rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .image2, .image3, .image4, .image5, .image6, .image7 {
+        width: 140px !important;
+        height: 140px !important;
+        margin: 1rem auto !important;
+    }
+    .image2 img, .image3 img, .image4 img, .image5 img, .image6 img, .image7 img {
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    /* 7. ضبط الصندوق الملتوي (box-child) ليبقى في المساحة المتاحة للرؤية */
+    .box {
+        width: 90% !important;
+        max-width: 320px;
+        margin: 2rem auto !important;
+    }
+    .box-child {
+        width: 100% !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        position: relative !important; /* إلغاء الـ absolute لمنع التداخل */
+    }
+
+    /* 8. ضبط قسم الصور الكبيرة والفقرات المتداخلة (por) */
+    .div3 {
+        height: auto !important;
+        padding-bottom: 2rem !important;
+    }
+    .por {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .image-big, .image-big2 {
+        width: 90% !important;
+        height: auto !important;
+        margin: 1rem auto !important;
+    }
+    .image-big2 img {
+        margin-top: 0 !important;
+    }
+

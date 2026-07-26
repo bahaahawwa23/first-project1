@@ -177,3 +177,62 @@ margin-top: 5rem;
 button p{
     /* margin-top: 0.2rem; */
 }
+
+/* ==========================================================================
+   هنا السحر: هذه الكود يشتغل فقط على الجوال ويصلح التداخل دون تغيير كودك الأصلي فوق
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* 1. إصلاح الهيدر والفوتر ليصبحوا تحت بعض تماماً وبشكل متناسق */
+    header, header nav ul, footer .perant {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+    }
+    header i, footer .image-hea, footer .rabt {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* 2. إصلاح القسم الرئيسي (div1) لكي لا يخرج عن الشاشة */
+    .div1 {
+        width: 100% !important;
+        grid-template-columns: 1fr !important;
+        padding: 4rem 1rem !important;
+    }
+
+    /* 3. إلغاء المارجن السالب الضخم وتوسيط النصوص داخل الكارد */
+    .pera {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .pera h1, .pera p {
+        margin: 1rem 0 !important;
+        width: 100% !important;
+        font-size: 24px !important; /* حجم أنسب لشاشة الجوال */
+    }
+
+    /* 4. فك التداخل وتحرير العناصر ذات التموضع المطلق (Absolute) */
+    .div2 {
+        padding-left: 0 !important;
+        padding: 1.5rem !important;
+    }
+    data, .data {
+        flex-direction: column;
+        height: auto !important;
+        margin-bottom: 2rem !important;
+    }
+    .p, .p1 {
+        position: static !important; /* إلغاء الـ absolute لتصبح مرنة */
+        margin: 1rem 0 !important;
+        width: 100% !important;
+    }
+    .data p, .p1 p {
+        margin: 0.5rem 0 !important;
+    }
+    .data a {
+        margin-left: 0 !important;
+    }
+}
